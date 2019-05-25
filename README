@@ -1,0 +1,18 @@
+My old Arduino projects.
+Most of them are from my learning phase.
+
+-ArduinoDeskWatch : Desk watch with 16x2 LCD and dht11 sensor
+-
+-Chronometer : Arduino based basic Chronometer
+-
+-Battery : all my battery projects
+--1.5V_test : Alkaline battery tester using map function.
+--Batt_Calculator : Basic battery capacity tester using Ohm's Law
+--BATT_old : Probably my first SMBUS interfaced battery reader
+--BattOled : Battery capacity tester but with FET Functions , 4 type resistance and an OLED Display
+--battest541 : Same as BattOled but uses BQ27541 as adc
+--battest17042 : Same as BattOled but uses MAX17042 as adc (better than 541 version)
+--oled_hdq_test : another battery tester but uses BQ27541's Coulomb Counter (pretty accurate if BQ27541 is calibrated)
+--oledless_hdq_test : same as oled_hdq_test but without OLED display (i guess i burned my oled display back then so i created this version :] )
+--HDQ_OLED : looks like another HDQ battery reader but half
+--i2ckindlebatt : bq27200 battery reader but failed. Maybe i'll try to rewrite again.I didn't know how to do bitwise operations then ¯\_(ツ)_/¯
